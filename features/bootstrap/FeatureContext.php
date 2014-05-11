@@ -1,11 +1,10 @@
 <?php
-
-use Behat\Behat\Context\BehatContext;
+use Behat\Behat\Context\Context;
 
 /**
  * Features context.
  */
-class FeatureContext extends BehatContext
+class FeatureContext implements Context
 {
     /**
      * Initializes context.
@@ -13,8 +12,8 @@ class FeatureContext extends BehatContext
      *
      * @param array $parameters context parameters (set them up through behat.yml)
      */
-    public function __construct(array $parameters)
+    public function __construct(array $parameters = array())
     {
-        $this->useContext('phpspec', new PHPSpecContext());
+
     }
 }
