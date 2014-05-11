@@ -1,5 +1,7 @@
 # PhpSpec prepare extension
 
+[![Build Status](https://travis-ci.org/coduo/phpspec-prepare-extension.svg?branch=master)](https://travis-ci.org/coduo/phpspec-prepare-extension)
+
 Prepare examples before phpspec execute them.
 
 ## Installation
