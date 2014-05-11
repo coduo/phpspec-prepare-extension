@@ -1,11 +1,10 @@
 <?php
-
-use Behat\Behat\Context\BehatContext;
+use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\PyStringNode;
 use Symfony\Component\Filesystem\Filesystem;
 use PhpSpec\Console\Application;
 
-class PHPSpecContext extends BehatContext
+class PHPSpecContext implements SnippetAcceptingContext
 {
     /**
      * @var string
@@ -78,7 +77,7 @@ YML;
         $application = new Application('2.0-dev');
         $application->setAutoExit(false);
 
-        $this->applicationTester = new ApplicationTester($application);
+        $this->applicationTester = new Console\ApplicationTester($application);
         $this->applicationTester->run('run --no-interaction -f pretty');
     }
 
@@ -91,7 +90,7 @@ YML;
     }
 
     /**
-     * @Given /^I should see "([^"]*)"$/
+     * @Given /^I should see :message"$/
      */
     public function iShouldSee($message)
     {
