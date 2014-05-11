@@ -1,4 +1,4 @@
-# PHPSpec prepare extension
+# PhpSpec prepare extension
 
 Prepare examples before phpspec execute them.
 
