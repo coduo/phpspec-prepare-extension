@@ -1,2 +1,2 @@
 extensions:
-  - Coduo\PhpSpec\PrepareExtension
+  - Coduo\PhpSpec\Prepare\PrepareExtension

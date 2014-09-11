@@ -1,4 +1,5 @@
 <?php
+
 use Behat\Behat\Context\Context;
 
 /**

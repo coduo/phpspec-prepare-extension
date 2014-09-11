@@ -1,4 +1,5 @@
 <?php
+
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\PyStringNode;
 use Symfony\Component\Filesystem\Filesystem;
