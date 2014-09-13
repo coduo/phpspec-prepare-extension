@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Coduo\PhpSpec\Annotation;
+namespace spec\Coduo\PhpSpec\Prepare\Annotation;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;

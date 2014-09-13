@@ -1,8 +1,8 @@
 <?php
 
-namespace Coduo\PhpSpec;
+namespace Coduo\PhpSpec\Prepare;
 
-use Coduo\PhpSpec\Runner\Maintainer\BeforeMaintainer;
+use Coduo\PhpSpec\Prepare\Runner\Maintainer\BeforeMaintainer;
 use PhpSpec\Extension\ExtensionInterface;
 use PhpSpec\ServiceContainer;
 
