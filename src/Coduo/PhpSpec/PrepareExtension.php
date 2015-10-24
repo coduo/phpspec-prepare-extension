@@ -2,7 +2,7 @@
 
 namespace Coduo\PhpSpec;
 
-use Coduo\PhpSpec\Runner\Maintainer\BeforeMaintainer;
+use Coduo\PhpSpec\PrepareExtension\Runner\Maintainer\BeforeMaintainer;
 use PhpSpec\Extension\ExtensionInterface;
 use PhpSpec\ServiceContainer;
 

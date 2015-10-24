@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Coduo\PhpSpec\Runner\Maintainer;
+namespace spec\Coduo\PhpSpec\PrepareExtension\Runner\Maintainer;
 
 use PhpSpec\Loader\Node\ExampleNode;
 use PhpSpec\Loader\Node\SpecificationNode;
