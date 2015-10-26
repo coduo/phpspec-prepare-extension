@@ -8,7 +8,7 @@ Prepare examples before phpspec execute them.
 
 ```
 require: {
-   "coduo/phpspec-prepare-extension": "dev-master"
+   "coduo/phpspec-prepare-extension": "^1.0"
 }
 ```
 
